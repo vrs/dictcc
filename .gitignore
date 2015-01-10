@@ -1,1 +1,3 @@
+.*swp
 data/*
+!data/dictcc-import.sh
