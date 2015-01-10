@@ -1,9 +1,9 @@
 # dictcc
-A simple, nearly trivial, offline interface for dict.cc, receiving words on stdin and outputting translations to stdout.
+A simple, nearly trivial, offline interface for [dict.cc](http://dict.cc), receiving words on stdin and outputting translations to stdout.
 
-Written to scratch an itch. I'm often deliberately without Internet for a day or two, but sometimes I can't remember a word and need a dictionary. Should also come in handy for various other offline situations you find yourself in, for example long train rides.
-It's also faster than the online version once the database is in your cache.
-The code and output quality aren't the best, I know. I'll improve this whenever I think my pain outweighs the effort. Pull requests welcome.
+Written to scratch an itch. I'm often deliberately without Internet for a day or two, but sometimes I can't remember a word and need a dictionary. Should also come in handy for various other offline situations you find yourself in, for example long train rides.<br>
+It's also faster than the online version once the database is in your cache.<br>
+The code and output quality aren't the best, I know. I'll improve this whenever I think my pain outweighs the effort. Pull requests welcome.<br>
 This tool wouldn't be possible if dict.cc didn't publish their dataset for free, so hats off to them! (Or whatever your headwear of choice may be)
 
 ## Requirements
@@ -15,8 +15,8 @@ Python and SQLite 3, optionally rlwrap.
 3. Symlink dictcc.py from your $PATH or call it from a wrapper script and things should work (it's my setup)
 
 ## Usage
-dictcc.py accepts words on stdin and outputs possible translations.
-Call like so (recommended):
+dictcc.py accepts words on stdin and outputs possible translations.<br>
+Call like so (recommended):<br>
 `rlwrap dictcc.py`
 
 ## License
